@@ -1,0 +1,127 @@
+/* Main Container */
+.order-confirmation {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 50px);
+}
+
+.noorder{
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+    color: #d35400;
+}
+/* Order Details Box */
+.order-details {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Burger Info Section */
+.burger-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.burger-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.burger-text h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+}
+
+.burger-text p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.burger-text h3 {
+    font-size: 1.2em;
+    color: #e67e22;
+}
+
+/* Ingredients Summary Section */
+.ingredients-summary {
+    margin-top: 20px;
+}
+
+.ingredients-summary h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.ingredients-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients-summary li {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Confirm Order Button */
+.confirmation-footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.confirmation-footer button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.confirmation-footer button:hover {
+    background-color: #d35400;
+}
+
+.confirmation-footer button:focus {
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .order-details {
+        width: 95%;
+    }
+
+    .burger-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .burger-image {
+        width: 120px;
+    }
+
+    .burger-text h2 {
+        font-size: 1.3em;
+    }
+
+    .ingredients-summary ul {
+        padding-left: 20px;
+    }
+}

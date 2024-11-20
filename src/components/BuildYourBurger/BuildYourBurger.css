@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.burger-name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    padding-top: 100px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.burger-preview {
+    text-align: center;
+    width: 30%;
+}
+
+.bun {
+    background-color: #f5d782;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.layer {
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.layer.lettuce {
+    background-color: #76c76b;
+}
+
+.layer.tomato {
+    background-color: #e55c5c;
+}
+
+.layer.cheese {
+    background-color: #f1c232;
+}
+
+.layer.patty {
+    background-color: #7b4513;
+}
+
+.layer.bacon {
+    background-color: #d66565;
+}
+
+.layer.chorizo {
+    background-color: #aa0011;
+}
+
+.layer.roma{
+    background-color: #FF6347;
+}
+.layer.eggs{
+    background-color: #f4df92;
+}
+
+.layer.onions{
+    background-color: #62121b;
+}
+.layer.avocado{
+    background-color: #8E9864;
+}
+.layer.pickles{
+    background-color: #85a16a;
+}
+.layer.sauce{
+    background-color: #ab4f41;
+}
+.layer.mayonnaise{
+    background-color: #FAF6E6;
+}
+.layer.grilled{
+    background-color: #ae9942;
+}
+.layer.ketchup{
+    background-color: #ce2522;
+}
+
+
+.ingredient-selector,
+.order-summary {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ingredient {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68900;
+}
