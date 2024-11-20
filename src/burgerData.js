@@ -11,7 +11,7 @@ const burgers = [
             { name: 'Eggs (Poached)', price: 1.20, quantity: 0 },
             { name: 'Lettuce', price: 0.50, quantity: 0 },
         ],
-        image: '/src/assets/images/raw-marbled-meat-steak.png',
+        image: '/raw-marbled-meat-steak.png',
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const burgers = [
             { name: 'Tomato', price: 0.70, quantity: 0 },
             { name: 'Onions', price: 0.30, quantity: 0 },
         ],
-        image: '/src/assets/images/beef-steak-grill-pan.png',
+        image: '/beef-steak-grill-pan.png',
     },
     {
         id: 3,
@@ -40,7 +40,7 @@ const burgers = [
             { name: 'Onions', price: 0.30, quantity: 0 },
             { name: 'Ketchup', price: 0.20, quantity: 0 },
         ],
-        image: '/src/assets/images/beef-cheese-burger.png',
+        image: '/beef-cheese-burger.png',
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ const burgers = [
             { name: 'Tomato', price: 0.70, quantity: 0 },
             { name: 'Mayonnaise', price: 0.30, quantity: 0 },
         ],
-        image: '/src/assets/images/chicken-burger.png',
+        image: '/chicken-burger.png',
     },
     {
         id: 5,
@@ -67,7 +67,7 @@ const burgers = [
             { name: 'Lettuce', price: 0.50, quantity: 0 },
             { name: 'Special Sauce', price: 0.80, quantity: 0 },
         ],
-        image: '/src/assets/images/double-mac-burger.png',
+        image: '/double-mac-burger.png',
     },
     {
         id: 6,
@@ -81,7 +81,7 @@ const burgers = [
             { name: 'Tomato', price: 0.70, quantity: 0 },
             { name: 'Onions', price: 0.30, quantity: 0 },
         ],
-        image: '/src/assets/images/black-beef-burger.png',
+        image: '/black-beef-burger.png',
     },
     {
         id: 7,
@@ -95,7 +95,7 @@ const burgers = [
             { name: 'Tomato', price: 0.70, quantity: 0 },
             { name: 'Pickles', price: 0.30, quantity: 0 },
         ],
-        image: '/src/assets/images/veggie-delight-burger.png',
+        image: '/veggie-delight-burger.png',
     }
 ]
 
